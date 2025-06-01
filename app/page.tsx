@@ -828,7 +828,7 @@ export default function GanpatiConsultancy() {
         <div className="container mx-auto px-4">
           <div className="text-center mb-16">
             <Badge className="mb-4 bg-brand-100 text-brand-600 hover:bg-brand-200">Why Choose Us</Badge>
-            <h2 className="text-3xl md:text-4xl font-bold text-slate-900 mb-4">Ganpati Consultancy vs Other CAs</h2>
+            <h2 className="text-3xl md:text-4xl font-bold text-slate-900 mb-4">Ganpati Consultancy vs Other</h2>
             <p className="text-xl text-slate-600 max-w-3xl mx-auto">
               See what makes us different from traditional CA firms
             </p>
