@@ -839,7 +839,7 @@ export default function GanpatiConsultancy() {
                     <tr className="border-b-2 border-brand-200">
                       <th className="text-left py-4 px-4 font-semibold text-slate-900">Features</th>
                       <th className="text-center py-4 px-4 font-semibold text-brand-400">Ganpati Consultancy</th>
-                      <th className="text-center py-4 px-4 font-semibold text-slate-600">Others</th>
+                      <th className="text-center py-4 px-4 font-semibold text-slate-600">Other</th>
                     </tr>
                   </thead>
                   <tbody>
