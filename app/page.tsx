@@ -626,7 +626,7 @@ export default function GanpatiConsultancy() {
       >
         <div className="relative container mx-auto px-4 text-center text-white">
           <Badge className="mb-6 bg-white/20 text-white border-white/30 hover:bg-white/30">
-            ✨ Premier CA Firm in Patna
+            ✨ Trusted Business Advisors in Patna
           </Badge>
 
           <h1 className="text-4xl md:text-6xl font-bold mb-6 leading-tight">
