@@ -403,7 +403,7 @@ export default function GanpatiConsultancy() {
     {
       question: "How experienced is your team?",
       answer:
-        "Our founder Ganesh Kumar is a Chartered Accountant with 13+ years of experience. Our team has successfully served 500+ clients across various industries in Patna and Bihar.",
+        "Our founder Ganesh Kumar with 13+ years of experience. Our team has successfully served 500+ clients across various industries in Patna and Bihar.",
     },
     {
       question: "Do you provide 24/7 support?",
@@ -482,10 +482,10 @@ export default function GanpatiConsultancy() {
   ]
 
   const trustBadges = [
-    { name: "ICAI Member", icon: Shield, description: "Institute of Chartered Accountants of India" },
-    { name: "GST Practitioner", icon: CheckCircle, description: "Certified GST Practitioner" },
     { name: "SSL Secured", icon: Lock, description: "256-bit SSL Encryption" },
-    { name: "Data Protected", icon: UserCheck, description: "GDPR Compliant" },
+    { name: "Data Protected", icon: ShieldCheck, description: "GDPR & IT Act Compliant" },
+    { name: "Secure Client Portal", icon: UploadCloud, description: "Access-Controlled File Uploads" },
+    { name: "Verified Business Identity", icon: BadgeCheck, description: "Trusted Professional Services" }
   ]
 
   const comparisonData = [
@@ -713,14 +713,11 @@ export default function GanpatiConsultancy() {
               <Badge className="mb-4 bg-brand-100 text-brand-600 hover:bg-brand-200">About Our Founder</Badge>
 
               <h2 className="text-3xl md:text-4xl font-bold text-slate-900 mb-6">
-                Meet <span className="text-brand-400">Ganesh Kumar, CA</span>
+                Meet <span className="text-brand-400">Ganesh Kumar</span>
               </h2>
 
               <p className="text-lg text-slate-700 mb-8 leading-relaxed">
-                Ganesh Kumar, a distinguished Chartered Accountant, established Ganpati Consultancy with a vision to
-                provide comprehensive financial solutions to businesses in Patna and across Bihar. With over 13 years of
-                expertise in taxation, auditing, and financial consultancy, he has successfully transformed traditional
-                CA practices with modern technology solutions.
+                Ganesh Kumar, founder of Ganpati Consultancy, brings over 13 years of experience in taxation, auditing, and financial services. Under his leadership, the firm has expanded into IT services, digital marketing, and graphic designing, offering complete business support with a modern, tech-driven approach.
               </p>
 
               <Card className="bg-gradient-to-br from-brand-50 to-cyan-50 border-brand-200">
@@ -842,7 +839,7 @@ export default function GanpatiConsultancy() {
                     <tr className="border-b-2 border-brand-200">
                       <th className="text-left py-4 px-4 font-semibold text-slate-900">Features</th>
                       <th className="text-center py-4 px-4 font-semibold text-brand-400">Ganpati Consultancy</th>
-                      <th className="text-center py-4 px-4 font-semibold text-slate-600">Other CAs</th>
+                      <th className="text-center py-4 px-4 font-semibold text-slate-600">Others</th>
                     </tr>
                   </thead>
                   <tbody>
