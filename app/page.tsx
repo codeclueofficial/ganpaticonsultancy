@@ -16,6 +16,7 @@ import {
   Menu,
   X,
   Phone,
+  HelpCircle,
   Mail,
   MapPin,
   LandPlot,
@@ -552,6 +553,7 @@ export default function GanpatiConsultancy() {
                 { name: "Services", icon: Briefcase, id: "services" },
                 { name: "Testimonials", icon: MessageSquareHeart, id: "testimonials" },
                 { name: "Contact Us", icon: Phone, id: "contact" },
+                { name: "FAQ", icon: HelpCircle, id: "faq" },
               ].map((item) => (
                 <button
                   key={item.name}
@@ -591,6 +593,7 @@ export default function GanpatiConsultancy() {
                   { name: "Services", icon: Briefcase, id: "services" },
                   { name: "Testimonials", icon: MessageSquareHeart, id: "testimonials" },
                   { name: "Contact Us", icon: Phone, id: "contact" },
+                  { name: "FAQ", icon: HelpCircle, id: "faq" },
                 ].map((item) => (
                   <button
                     key={item.name}
@@ -992,7 +995,7 @@ export default function GanpatiConsultancy() {
       </section>
 
       {/* FAQ Section */}
-      <section className="py-20 bg-white">
+      <section id="faq" className="py-20 bg-white">
         <div className="container mx-auto px-4">
           <div className="text-center mb-16">
             <Badge className="mb-4 bg-brand-100 text-brand-600 hover:bg-brand-200">FAQ</Badge>

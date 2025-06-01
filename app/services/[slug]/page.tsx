@@ -15,6 +15,7 @@ import {
   CheckCircle,
   ArrowRight,
   Phone,
+  HelpCircle,
   Mail,
   Clock,
   FileText,
@@ -858,7 +859,8 @@ export default function ServicePage({ params }: { params: { slug: string } }) {
                 { name: "About", icon: User, href: "/#about" },
                 { name: "Services", icon: Briefcase, href: "/#services" },
                 { name: "Testimonials", icon: MessageSquareHeart, href: "/#testimonials" },
-                { name: "Contact", icon: Phone, href: "/#contact" },
+                { name: "Contact Us", icon: Phone, href: "/#contact" },
+                { name: "FAQ", icon: HelpCircle, href: "/#faq" },
               ].map((item) => (
                 <Link
                   key={item.name}
@@ -896,7 +898,8 @@ export default function ServicePage({ params }: { params: { slug: string } }) {
                   { name: "About", icon: User, href: "/#about" },
                   { name: "Services", icon: Briefcase, href: "/#services" },
                   { name: "Testimonials", icon: MessageSquareHeart, href: "/#testimonials" },
-                  { name: "Contact", icon: Phone, href: "/#contact" },
+                  { name: "Contact Us", icon: Phone, href: "/#contact" },
+                  { name: "FAQ", icon: HelpCircle, href: "/#faq" },
                 ].map((item) => (
                   <Link
                     key={item.name}
